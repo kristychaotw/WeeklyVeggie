@@ -1,0 +1,438 @@
+.max-fluid {
+    max-width: 1440px;
+}
+
+body {
+    background-color: #F2F2F2;
+    font-family: 'Noto Sans TC', sans-serif, 'Noto Serif TC', serif, 'PT Serif', serif;
+    color: #1d1d1d
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
+    padding: 20px 0;
+    color: #274001;
+}
+
+section {
+    margin: 60px 0;
+    padding: 20px 0;
+}
+
+.text-conter {
+    text-align: center;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.m-20 {
+    margin: 20px 0;
+}
+
+.p-0 {
+    padding: auto 0;
+}
+
+a {
+    color: #8C031C;
+}
+
+p {
+    margin: 0;
+    padding: 1%;
+}
+
+/* banner*/
+.banner>h1 {
+    font-family: 'PT Serif', serif;
+}
+
+.banner {
+    position: relative;
+    height: 800px;
+    overflow: hidden;
+}
+
+.title {
+    background-color: #27400110;
+    z-index: 10;
+    position: absolute;
+    padding: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.title>h1 {
+    font-size: 6rem;
+    font-family: 'PT Serif', serif;
+    color: #F2F2F2;
+    height: 800px;
+    line-height: 800px;
+}
+
+.bgimg {
+    position: absolute;
+}
+
+.bgi1 {
+    width: 20%;
+    /* right:5px; */
+    -webkit-animation: example 1000s infinite;
+    animation: example 10s infinite;
+    z-index: 1;
+}
+
+.bgi2 {
+    width: 30%;
+    left: -100px;
+    -webkit-animation: example-3 60s infinite;
+    animation: example-3 6s infinite;
+}
+
+.bgi3 {
+    width: 25%;
+    bottom: 0px;
+    -webkit-animation: example-3 800s infinite;
+    animation: example-3 8s infinite;
+}
+
+.bgi6 {
+    width: 15%;
+    bottom: 40%;
+    -webkit-animation: example-3 900s infinite;
+    animation: example-3 9s infinite;
+}
+
+.bgi4 {
+    width: 30%;
+    bottom: 0px;
+    -webkit-animation: example-2 80s infinite;
+    animation: example-2 8s infinite;
+}
+
+.bgi5 {
+    width: 60%;
+    top: 20%;
+    /* right:50%; */
+    -webkit-animation: example-2 60s infinite;
+    animation: example-2 6s infinite;
+    z-index: 2;
+}
+
+@keyframes example {
+    0% {
+        left: -50%;
+    }
+
+    50% {
+        left: 8%
+    }
+
+    100% {
+        left: 100%
+    }
+}
+
+@keyframes example-2 {
+    0% {
+        left: -50%;
+    }
+
+    /* 50%  {left: 10%} */
+    100% {
+        left: 100%
+    }
+}
+
+@keyframes example-3 {
+    0% {
+        left: -50%;
+    }
+
+    50% {
+        left: 20%
+    }
+
+    100% {
+        left: 100%
+    }
+}
+
+/* nav */
+nav ul {
+    justify-content: space-around;
+    background-color: #8C031C;
+    min-height: 60px;
+}
+
+nav a {
+    display: inline-block;
+    color: #F2F2F2;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: #F2F2F2;
+}
+
+.hover-underline {
+    display: inline-block;
+    position: relative;
+    color: #F2F2F2;
+}
+
+.hover-underline:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+    background-color: #F2F2F2;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* header area */
+.logobar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logobar>ul>li {
+    padding: 0 5px;
+}
+
+.logo {
+    width: 80px;
+}
+
+/* products */
+.vegbox {
+    margin: 20px;
+}
+
+.mycard {
+    background-color: #f2f2f2;
+    border: none;
+}
+
+
+
+/* service */
+.service {
+    background-color: #274001;
+}
+
+.service li {
+    width: 20%;
+}
+
+.service .subtitle {
+    letter-spacing: 0.6rem;
+}
+
+.service h3 {
+    color: #5A7302;
+    text-align: start;
+    font-family: 'PT Serif', serif;
+    font-weight: 900;
+    font-size: 2.2rem;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.service h4 {
+    color: #5A7302;
+    /* font-family:'PT Serif', serif; */
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.service h5 {
+    font-weight: 600;
+    color: #F2F2F2;
+    font-size: 1.2rem;
+}
+
+.service p {
+    color: #acacac;
+    font-size: 0.8rem;
+    padding-top: 15px;
+}
+
+/* vegmenu */
+.menu {
+    background-color: #f2f2f2;
+    border: none;
+}
+
+.card-title {
+    font-family: 'PT Serif', serif;
+    font-size: 1.4rem;
+    color: #5A7302;
+    line-height: 1.8rem;
+    padding-top: 10px;
+}
+
+.card-text {
+    padding: 5px 0;
+    line-height: 2rem;
+}
+
+
+
+/* vegset */
+.vegset {
+    overflow: hidden;
+}
+
+.vegset-banner {
+    height: 600px;
+    background-color: #274001;
+    overflow: hidden;
+}
+
+.vegset-banner img {
+    object-fit: scale-down;
+}
+
+.banner-linearbg {
+    background: linear-gradient(rgba(145, 152, 229, 0), #000000d7);
+    width: 100%;
+    margin: auto;
+    padding: 20px 0 30px 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+/* product */
+.product-wrap {
+    display: flex;
+}
+
+
+/* footer */
+footer {
+    background-color: #274001;
+    color: #5A7302;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.sns {
+    width: 20%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.sns>ul {
+    margin: 0;
+}
+
+/* top-btn */
+
+.top-btn {
+    width: 60px;
+    height: 60px;
+    background-color: #f2f2f2e1;
+    border: 2px solid #5b7302e8;
+    border-radius: 100%;
+    text-align: center;
+    position: fixed;
+    right: -10%;
+    bottom: 5%;
+    box-shadow: 2px 2px #2740019f;
+    transform: rotate(180deg);
+    transition: .6s;
+}
+
+.top-btn>.arrow-icon {
+    position: relative;
+    top: calc(50% - 20px);
+    /* 50% - 3/4 of icon height */
+}
+
+
+.top-btn.active {
+    position: fixed;
+    right: 3%;
+    bottom: 5%;
+    transform: rotate(0deg);
+}
+
+
+/* 小螢幕裝置 */
+
+@media screen and (max-width:768px) {
+    .service ul>li {
+        width: 45%;
+        padding: 2%;
+    }
+
+    h5 {
+        font-size: 1.2rem;
+    }
+
+    .card-title {
+        font-family: 'PT Serif', serif;
+        font-size: 1.3rem;
+        font-weight: 800;
+        color: #5A7302;
+        line-height: 1.5rem;
+        padding-top: 10px;
+    }
+
+    .banner {
+        position: relative;
+        height: 400px;
+        overflow: hidden;
+    }
+
+    .title {
+        background-color: #27400110;
+        z-index: 10;
+        position: absolute;
+        padding: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .title>h1 {
+        font-size: 3rem;
+        font-family: 'PT Serif', serif;
+        color: #F2F2F2;
+        height: 400px;
+        line-height: 400px;
+    }
+
+    .top-btn {
+        right: -50%;
+    }
+}
