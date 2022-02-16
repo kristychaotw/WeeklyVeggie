@@ -10,5 +10,12 @@ $(window).scroll(function(){
         $("#top-btn").removeClass("active")
     }
 
-
 })// window scroll end
+
+
+// 點擊事件
+$("#top-btn").on("click",function(){
+    // console.log("topbt-test");
+    $("html,body").animate({
+        "scrollTop":0},400)
+}) // top-btn click end

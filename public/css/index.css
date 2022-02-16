@@ -67,7 +67,7 @@ p {
 
 .banner {
     position: relative;
-    height: 800px;
+    height: 500px;
     overflow: hidden;
 }
 
@@ -84,8 +84,8 @@ p {
     font-size: 6rem;
     font-family: 'PT Serif', serif;
     color: #F2F2F2;
-    height: 800px;
-    line-height: 800px;
+    height: 500px;
+    line-height: 500px;
 }
 
 .bgimg {
@@ -242,6 +242,9 @@ nav a:hover {
     border: none;
 }
 
+.product-wrap {
+    display: flex;
+}
 
 
 /* service */
@@ -293,16 +296,17 @@ nav a:hover {
 }
 
 .card-title {
-    font-family: 'PT Serif', serif;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 600;
     font-size: 1.4rem;
     color: #5A7302;
-    line-height: 1.8rem;
+    line-height: 1.6rem;
     padding-top: 10px;
 }
 
 .card-text {
     padding: 5px 0;
-    line-height: 2rem;
+    line-height: 1.5rem;
 }
 
 
@@ -332,11 +336,6 @@ nav a:hover {
     bottom: 0;
 }
 
-/* product */
-.product-wrap {
-    display: flex;
-}
-
 
 /* footer */
 footer {
@@ -361,7 +360,7 @@ footer {
 .top-btn {
     width: 60px;
     height: 60px;
-    background-color: #f2f2f2e1;
+    background-color: #f0f0f0f1;
     border: 2px solid #5b7302e8;
     border-radius: 100%;
     text-align: center;
@@ -401,10 +400,8 @@ footer {
     }
 
     .card-title {
-        font-family: 'PT Serif', serif;
         font-size: 1.3rem;
         font-weight: 800;
-        color: #5A7302;
         line-height: 1.5rem;
         padding-top: 10px;
     }
